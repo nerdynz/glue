@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 	"github.com/desertbit/glue/backend/sockets/ajaxsocket"
 	"github.com/desertbit/glue/backend/sockets/websocket"
 	"github.com/desertbit/glue/log"
@@ -97,7 +97,6 @@ func (s *Server) OnNewSocketConnection(f func(BackendSocket)) {
 func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	// Get the URL path.
 	path := r.URL.Path
-
 	// Call this in an inline function to handle errors.
 	statusCode, err := func() (int, error) {
 		// Check the origin.

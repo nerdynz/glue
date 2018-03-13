@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 	"github.com/desertbit/glue/log"
 	"github.com/desertbit/glue/utils"
 )

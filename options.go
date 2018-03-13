@@ -119,5 +119,8 @@ func checkSameOrigin(r *http.Request) bool {
 	if err != nil {
 		return false
 	}
+	if strings.Contains(u.Host, "localhost") && strings.Contains(r.Host, "localhost") {
+		return true // both domains are local, so its not in production.. let it pass!
+	}
 	return u.Host == r.Host
 }
