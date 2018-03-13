@@ -18,7 +18,7 @@
 
 package backend
 
-import "github.com/desertbit/glue/backend/global"
+import "github.com/nerdynz/glue/backend/global"
 
 //################################//
 //### Backend Socket Interface ###//

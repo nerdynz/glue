@@ -22,7 +22,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/desertbit/glue"
+	"github.com/nerdynz/glue"
 )
 
 func main() {

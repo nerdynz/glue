@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/desertbit/glue/backend"
+	"github.com/nerdynz/glue/backend"
 )
 
 //####################//

@@ -23,9 +23,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/desertbit/glue/backend/closer"
-	"github.com/desertbit/glue/backend/global"
-	"github.com/desertbit/glue/log"
+	"github.com/nerdynz/glue/backend/closer"
+	"github.com/nerdynz/glue/backend/global"
+	"github.com/nerdynz/glue/log"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/gorilla/websocket"

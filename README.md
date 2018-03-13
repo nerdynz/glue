@@ -1,7 +1,7 @@
 # Glue - Robust Go and Javascript Socket Library
 
-[![GoDoc](https://godoc.org/github.com/desertbit/glue?status.svg)](https://godoc.org/github.com/desertbit/glue)
-[![Go Report Card](https://goreportcard.com/badge/github.com/desertbit/glue)](https://goreportcard.com/report/github.com/desertbit/glue)
+[![GoDoc](https://godoc.org/github.com/nerdynz/glue?status.svg)](https://godoc.org/github.com/nerdynz/glue)
+[![Go Report Card](https://goreportcard.com/badge/github.com/nerdynz/glue)](https://goreportcard.com/report/github.com/nerdynz/glue)
 [![Join the chat at https://gitter.im/desertbit/glue](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/desertbit/glue?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Glue is a real-time bidirectional socket library. It is a **clean**, **robust** and **efficient** alternative to [socket.io](http://socket.io/). This library is designed to connect webbrowsers with a go-backend in a simple way. It automatically detects supported socket layers and chooses the most suitable one. This library handles automatic reconnections on disconnections and handles caching to bridge those disconnections. The server implementation is **thread-safe** and **stable**. The API is **fixed** and there won't be any breaking API changes.
@@ -25,12 +25,12 @@ You can use bower to install the client library:
 ### Server
 Get the source and start hacking.
 
-`go get github.com/desertbit/glue`
+`go get github.com/nerdynz/glue`
 
 Import it with:
 
 ```go
-import "github.com/desertbit/glue"
+import "github.com/nerdynz/glue"
 ```
 
 ## Documentation
@@ -159,7 +159,7 @@ c.send(data, discardCallback);
 ```
 
 ### Server - Go Library
-Check the Documentation at [GoDoc.org](https://godoc.org/github.com/desertbit/glue).
+Check the Documentation at [GoDoc.org](https://godoc.org/github.com/nerdynz/glue).
 
 #### Use a custom HTTP multiplexer
 If you choose to use a custom HTTP multiplexer, then it is possible to deactivate the automatic HTTP handler registration of glue.
@@ -318,7 +318,7 @@ import (
     "log"
     "net/http"
 
-    "github.com/desertbit/glue"
+    "github.com/nerdynz/glue"
 )
 
 func main() {

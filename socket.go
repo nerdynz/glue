@@ -28,9 +28,9 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/blang/semver"
-	"github.com/desertbit/glue/backend"
-	"github.com/desertbit/glue/log"
-	"github.com/desertbit/glue/utils"
+	"github.com/nerdynz/glue/backend"
+	"github.com/nerdynz/glue/log"
+	"github.com/nerdynz/glue/utils"
 )
 
 //#################//

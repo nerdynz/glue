@@ -22,8 +22,8 @@ import (
 	"net/http"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/desertbit/glue/log"
-	"github.com/desertbit/glue/utils"
+	"github.com/nerdynz/glue/log"
+	"github.com/nerdynz/glue/utils"
 	"github.com/gorilla/websocket"
 )
 
