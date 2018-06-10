@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/nerdynz/glue/backend/sockets/ajaxsocket"
 	"github.com/nerdynz/glue/backend/sockets/websocket"
 	"github.com/nerdynz/glue/log"
 	"github.com/nerdynz/glue/utils"
+	"github.com/sirupsen/logrus"
 )
 
 //#################//

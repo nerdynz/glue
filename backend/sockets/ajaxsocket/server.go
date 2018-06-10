@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/nerdynz/glue/log"
 	"github.com/nerdynz/glue/utils"
+	"github.com/sirupsen/logrus"
 )
 
 //#################//

@@ -27,8 +27,8 @@ import (
 	"github.com/nerdynz/glue/backend/global"
 	"github.com/nerdynz/glue/log"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/gorilla/websocket"
+	"github.com/sirupsen/logrus"
 )
 
 //#################//

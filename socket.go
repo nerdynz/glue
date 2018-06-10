@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/blang/semver"
 	"github.com/nerdynz/glue/backend"
 	"github.com/nerdynz/glue/log"
 	"github.com/nerdynz/glue/utils"
+	"github.com/sirupsen/logrus"
 )
 
 //#################//

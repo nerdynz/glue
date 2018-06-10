@@ -21,10 +21,10 @@ package websocket
 import (
 	"net/http"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/gorilla/websocket"
 	"github.com/nerdynz/glue/log"
 	"github.com/nerdynz/glue/utils"
-	"github.com/gorilla/websocket"
+	"github.com/sirupsen/logrus"
 )
 
 //#############################//
